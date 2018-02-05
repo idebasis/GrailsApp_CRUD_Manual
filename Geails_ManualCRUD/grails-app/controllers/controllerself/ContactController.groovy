@@ -4,6 +4,7 @@ class ContactController {
 def index = {
         redirect action: "list"
     }
+//test push 1
     def create = {}
     def save = {
         def contact = new Contact(params)
